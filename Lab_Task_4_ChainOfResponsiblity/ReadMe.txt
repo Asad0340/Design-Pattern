@@ -1,0 +1,4 @@
+In this Lab Task we do  Java implementation of the Chain of Responsibility design pattern for logging messages of varying severity levels. 
+Initially following a tutorial point example, the code demonstrates the pattern by utilizing different logger classes (ConsoleLogger, ErrorLogger, and FileLogger) to handle INFO, DEBUG, and ERROR messages. 
+The subsequent enhancements include adding support for logging WARNING messages to a database using a new DatabaseLogger class and establishing a separate chain of responsibility for ERROR, WARNING, and INFO messages. 
+This extended functionality showcases the pattern's flexibility in dynamically handling log messages based on their severity, with each logger in the chain halting further processing once it has fulfilled its role.
